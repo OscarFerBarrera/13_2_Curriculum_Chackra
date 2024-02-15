@@ -1,0 +1,12 @@
+body{
+  background-color: #282c34;
+  color: white;
+}
+
+.content__knowledge{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:center;
+  margin: 20px;
+
+}

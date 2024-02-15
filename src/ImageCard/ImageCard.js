@@ -1,10 +1,13 @@
 import "./ImageCard.css";
 
 
-const ImageCard = ({imageUrl, children}) => {
+const ImageCard = ({ imageUrl, children }) => {
   return (
-    <div className="Card">
-      <img src={imageUrl} className="Card__img" alt=""></img>
+    <div className="card">
+      <div className="card__img">
+        <img src={imageUrl} className="card__img" alt=""></img>
+      </div>
+          
       {children}
     </div>
 
