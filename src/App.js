@@ -1,23 +1,15 @@
-import logo from './logo.svg';
+
 import './App.css';
+import ImageCard from './ImageCard/ImageCard';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <ImageCard imageUrl="https://www.vectorlogo.zone/logos/nodejs/nodejs-ar21.png">
+        <h2>NodeJS</h2>
+        <p>Node.js es un entorno en tiempo de ejecución multiplataforma, de código abierto, para la capa del servidor basado en el lenguaje de programación JavaScript</p>
+        <a href="https://nodejs.org/">https://nodejs.org/</a>
+      </ImageCard>
     </div>
   );
 }
